@@ -162,7 +162,7 @@ h1 {
 
 #about {
     background: #fff;
-    padding-bottom: 400px;
+    padding-bottom: 115px;
 }
 
 .time {
@@ -170,7 +170,7 @@ h1 {
 }
 
 .about_item {
-   display: flex;
+    display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
@@ -178,11 +178,64 @@ h1 {
 
 .imga {
     flex: 0 280px;
-    margin-right: 100px;
+    margin-right: 95px;
     text-align: right;
 }
 
 .about_item img {
     width: 183px;
     height: 183px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.imga h3 {
+    font-size: 18px;
+    line-height: 0.44em;
+}
+
+.imga p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.55em;
+}
+
+.about_item_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about_item_right2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imga_right {
+    flex: 0 280px;
+    margin-left: 90px;
+    text-align: left;
+}
+
+.imga_right h3 {
+    font-size: 18px;
+    line-height: 0.44em;
+}
+
+.imga_right p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.55em;
+}
+
+.end {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.55em;
+    text-align: center;
+    margin-bottom: 114px;
 }
